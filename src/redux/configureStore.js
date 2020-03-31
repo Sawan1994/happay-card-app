@@ -2,13 +2,13 @@ import { applyMiddleware, createStore } from "redux";
 import thunkMiddleware from "redux-thunk";
 import { composeWithDevTools } from "redux-devtools-extension";
 import { persistReducer, persistStore } from "redux-persist";
-import storage from "redux-persist/lib/storage";
+import storageSession from "redux-persist/lib/storage/session";
 
 import rootReducer from "./reducers";
 
 const persistConfig = {
   key: "root",
-  storage: storage
+  storage: storageSession
   // whitelist: ["cardListReducer"] // which reducer want to store
 };
 
