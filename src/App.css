@@ -1,0 +1,64 @@
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 3em;
+  background-color: white;
+}
+
+.header-shadow{
+  box-shadow: 0 2px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.company-name {
+  color: #1c7cbf;
+  font-weight: 600;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.profile {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin-left: 2em;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile > svg {
+  width: inherit;
+  height: inherit;
+}
+
+.container {
+  max-width: 1080px;
+  margin: auto;
+  padding: 3em 0;
+}
+
+.cart-icon {
+  position: relative;
+}
+.cart-items {
+  background: red;
+  height: 12px;
+  width: 12px;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px;
+  font-weight: bold;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: -2px;
+}

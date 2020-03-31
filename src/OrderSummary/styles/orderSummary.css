@@ -1,0 +1,39 @@
+.back {
+  display: flex;
+  align-items: center;
+}
+
+.back > svg {
+  width: 24px;
+  margin-right: 0.5em;
+}
+
+.summary-title {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.order-content {
+  display: flex;
+  justify-content: stretch;
+}
+
+.price-card {
+  border: none;
+  padding: 1.5rem 0.5rem;
+  display: flex;
+  align-items: stretch;
+  background: #3581b517;
+}
+
+.price-card .price-row{
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+.price-card .price-row .cell{
+  height: 40px;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,52 @@
+.hr-2 {
+  border-width: 2px;
+  border-color: #1d7cbf;
+}
+
+.star-icon {
+  fill: #1d7cbf;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #2973ab2b;
+  padding: 4px;
+}
+
+.card-image {
+  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.3));
+}
+
+.fs-17 {
+  font-size: 17px;
+}
+
+.wrapper {
+  position: relative;
+}
+.ribbon {
+  font-size: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: absolute;
+  top: 2em;
+  right: 10px;
+  background: black;
+  color: #fff;
+  text-align: center;
+  padding: 4px 15px; 
+}
+
+.ribbon .ribbon-content:after {
+  content: "";
+  position: absolute;
+  display: block;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+  bottom: -0.5em;
+}
+
+.ribbon .ribbon-content:after {
+  right: 1px;
+    border-width: 0.5em 0.5em 0 0;
+}

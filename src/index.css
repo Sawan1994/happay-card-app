@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Muli";
+  src: url("./assets/fonts/Muli-VariableFont_wght.ttf");
+}
+body {
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8fafa;
+  font-size: 15px;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  width: 0 !important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
